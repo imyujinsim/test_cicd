@@ -7,7 +7,6 @@ files:
 permissions:
   - object: /home/ubuntu
     owner: ubuntu
-    group: wheel
 
 hooks:
   ApplicationStop:
