@@ -4,10 +4,12 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/test_cicd
+  - source: package.json
+    destination: /home/ubuntu/test_cicd/package.json
 file_exists_behavior: OVERWRITE
 
 permissions:
-  - object: /home/ubuntu
+  - object: /home/ubuntu/test_cicd/
     pattern: "**"
     owner: ubuntu
     mode: 700
