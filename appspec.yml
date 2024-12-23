@@ -8,7 +8,9 @@ file_exists_behavior: OVERWRITE
 
 permissions:
   - object: /home/ubuntu
+    pattern: "**"
     owner: ubuntu
+    mode: 700
 
 hooks:
   ApplicationStop:
