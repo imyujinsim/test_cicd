@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ubuntu
+    destination: /home/ubuntu/test_cicd
 file_exists_behavior: OVERWRITE
 
 permissions:
